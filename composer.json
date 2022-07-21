@@ -1,5 +1,5 @@
 {
-    "name": "wireframe-framework/wireframe-latte-renderer",
+    "name": "wireframe-framework/wireframe-renderer-latte",
     "type": "pw-module",
     "description": "Latte renderer for the Wireframe output framework.",
     "keywords": [ "latte", "template", "framework", "processwire" ],

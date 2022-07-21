@@ -7,6 +7,14 @@ the Latte templating engine.
 **Note**: this module is currently considered an early beta release. If you run into any problems,
 please open an issue at https://github.com/wireframe-framework/WireframeRendererLatte/issues.
 
+## Installing the module
+
+This module can be installed just like any other ProcessWire module, by cloning or downloading the module files to your modules directory. Alternatively you can install it via Composer:
+
+```
+composer require wireframe-framework/wireframe-renderer-latte
+```
+
 ## Basic usage
 
 First of all, you need to install both Wireframe and WireframeRenderLatte, and then set up Wireframe
