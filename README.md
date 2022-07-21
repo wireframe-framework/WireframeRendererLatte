@@ -4,6 +4,9 @@ Latte renderer for the Wireframe output framework
 This module is an optional renderer add-on for the Wireframe output framework, adding support for
 the Latte templating engine.
 
+**Note**: this module is currently considered an early beta release. If you run into any problems,
+please open an issue at https://github.com/wireframe-framework/WireframeRendererLatte/issues.
+
 ## Basic usage
 
 First of all, you need to install both Wireframe and WireframeRenderLatte, and then set up Wireframe
@@ -15,7 +18,8 @@ the bootstrap file (wireframe.php) and instruct Wireframe to use the Latte rende
 $wireframe->init([
     'renderer' => ['WireframeRendererLatte', [
         'latte' => [
-            'tempDirectory' => $this->wire('config')->paths->cache . '/WireframeRendererLatte', // just an example (this is the default value)
+            // just an example (this is the default value)
+            'tempDirectory' => $this->wire('config')->paths->cache . '/WireframeRendererLatte',
         ],
         'ext' => 'latte', // file extension ('latte' is the default value)
     ]],
